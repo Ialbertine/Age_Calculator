@@ -10,7 +10,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(90deg, #607474 0%, #b39fb3 100%);
+    background-image: url(imgs/sea2.webp);
+    background-size: cover;
+
 
 }
 .container{
@@ -20,10 +22,10 @@ body{
     justify-content: center;
     width: 700px;
     height: 400px;
-    background: #fff;
     border-radius: 20px;
     box-shadow: -3px 3px 4px 5px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(90deg, #51bec0 0%, #b740b9 100%);
+    background: gray;
+    opacity: 0.7;
 }
 
 .container h1{
@@ -50,14 +52,14 @@ button{
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: #5b4c4c;
+    background-color: #424baa;
     cursor: pointer;
     transition: 1s;
 
 }
 button:hover{
-    color: #decfde;
-    background-color: #291d1d;
+    background-color: rgb(30, 30, 233);
+    transform: scale(1.1);
     
 }
 #display{
